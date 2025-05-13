@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/USER/IdeaProjects/ATB11xFrameworkTesting/src/test/java/com/thetestingacedemy/Test">
+    <classes><class name="com.thetestingacedemy.Test.Sample.TestIntegrationSample">
+        <methods>
+            <include name="testcreateBooking"/>
+            <include name="testGetBooking"/>
+            <include name="testUpdateBooking"/>
+            <include name="testDeleteBooking"/>
+        </methods>
+    </class>
+    </classes>
+</test>
+</suite>
