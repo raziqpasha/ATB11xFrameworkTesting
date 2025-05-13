@@ -3,6 +3,7 @@ package com.thetestingacedemy.Test.Sample;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 public class TestIntegrationSample {
@@ -12,7 +13,8 @@ public class TestIntegrationSample {
     //update the booking
     //delete the booking
 
-@Test(groups="qa",priority =1)
+
+    @Test(groups="qa",priority =1)
     @Owner("raziq")
     @Description("Verify the sample testcase created")
     public void testcreateBooking(){
